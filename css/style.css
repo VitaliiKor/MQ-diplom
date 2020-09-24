@@ -56,28 +56,28 @@
 .menu__toggle {
   margin-left: 25px;
   background-color: #ffffff;
-  width: 15px;
-  height: 2px;
+  width: 24px;
+  height: 4px;
   position: relative;
   cursor: pointer;
 }
 
 .menu__toggle::before {
   content: '';
-  border-top: 2px solid #ffffff;
-  width: 15px;
+  border-top: 4px solid #ffffff;
+  width: 24px;
   height: 1px;
   position: absolute;
-  top: 7.5px;
+  top: 8px;
 }
 
 .menu__toggle::after {
   content: '';
-  border-top: 2px solid #ffffff;
-  width: 15px;
+  border-top: 4px solid #ffffff;
+  width: 24px;
   height: 1px;
   position: absolute;
-  top: 15px;
+  top: 16px;
 }
 .title {
   display: block;
