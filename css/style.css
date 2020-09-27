@@ -20,6 +20,7 @@
   margin-right: auto;
   margin-top: 100px;
   position: relative;
+  z-index: 2;
 }
 
 .welcome {
@@ -52,16 +53,16 @@
 .menu__check {
   display: none;
 }
-
 .menu__toggle {
-  margin-right: 16px;
+  position: absolute;
+  top: 31px;
+  right: 16px;
   background-color: #ffffff;
   width: 24px;
   height: 4px;
-  position: relative;
-  cursor: pointer;
+  z-index: 1;
+  cursor: pointer;	
 }
-
 .menu__toggle::before {
   content: '';
   border-top: 4px solid #ffffff;
@@ -85,7 +86,6 @@
   margin-left: auto;
   margin-right: auto;
   margin-top: 100px;
-  min-width: 340px;
   max-width: 680px;
   text-align: center;
   flex: none;
@@ -99,6 +99,31 @@
   width: 64px;
   height: 2px;
   background-color: #e1d9bd;
+  margin-top: 14px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 30px;
+}
+a {
+  color: #ffffff;
+}
+.post-header {
+  width: 366px;
+  height: 76px;
+  text-transform: uppercase;
+  font-family: OpenSans-Bold, Arial, Sans-Serif;
+  color: #000000;
+  text-decoration: none;
+}
+h2{
+  font-size: 16px;	
+}
+.column-header {
+  font-family: OpenSans-Bold, Arial, Sans-Serif;
+  text-transform: uppercase;
+  text-align: center;
+  text-decoration: none;
+  color: #000000;
 }
 @media (min-width: 641px) and (max-width: 1199px){
 .welcome {
@@ -158,9 +183,6 @@
   .menu__toggle {
     display: none;
   }
-a {
-  color: #ffffff;
-}
 
 .menu-list {
   display: flex;
@@ -222,15 +244,6 @@ a {
 .theme-type-element {
   margin-right: 30px;
 }
-.post-header {
-  width: 366px;
-  height: 76px;
-  text-transform: uppercase;
-  font-family: OpenSans-Bold, Arial, Sans-Serif;
-  font-size: 20px;
-  color: #000000;
-  text-decoration: none;
-}
 .article-date {
   display: inline-block;
   margin-right: 10px;
@@ -254,19 +267,6 @@ a {
 .right-column {
   margin-top: 65px;
 }
-.right-column-header {
-  text-transform: uppercase;
-  font-size: 14px;
-  font-family: OpenSans-Bold, Arial, Sans-Serif;
-  text-align: center;
-  text-decoration: none;
-}
-.element {
-  margin-top: 14px;
-  margin-left: auto;
-  margin-right: auto;
-  margin-bottom: 30px;
-}
 .right-column-post {
   height: 70px;
   margin-bottom: 22px;
@@ -281,12 +281,6 @@ a {
   font-family: OpenSans-Regular, Arial, Sans-Serif;
   font-size: 12px;
   color: #888888;
-}
-.right-column-header {
-  font-family: OpenSans-Bold, Arial, Sans-Serif;
-  font-size: 14px;
-  text-transform: uppercase;
-  color: #000000;
 }
 .search-group {
   display: flex;
