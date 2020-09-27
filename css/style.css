@@ -125,6 +125,55 @@ h2{
   text-decoration: none;
   color: #000000;
 }
+.widget {
+  background-color: #f4f7f6;
+  height: 83px;
+  min-width: 330px;
+  max-width: 1170px;
+  margin-top: 64px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 74px;
+}
+.widget .widget-socials {
+  display: flex;
+}
+.widget-socials {
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 32px;
+  padding-left: 0;
+}
+.widget .widget-socials .widget-social {
+  list-style-type: none;
+}
+.widget-logo {
+  width: 20px;
+  height: 20px;
+  margin-right: 30px;
+  color: #000000;
+  text-decoration: none;
+}
+.widget-link-text {
+  color: #000000;
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  clip: rect(1px, 1px, 1px, 1px);
+}
+.copy-right {
+  background-color: #ffffff;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 41px;
+  text-align: center;
+}
+.copy-right-style {
+  font-size: 12px;
+  font-family: OpenSans-Bold, Arial, Sans-Serif;
+  color: #999999;
+  text-decoration: none;
+}
 @media (min-width: 641px) and (max-width: 1199px){
 .welcome {
   background-image: url("../images/banner-bg-tablet.jpg");
@@ -377,52 +426,5 @@ h2{
 .theme-right-number {
   color: #b59f5b;
   margin-top: 5px;
-}
-.widget {
-  background-color: #f4f7f6;
-  height: 83px;
-  margin-top: 64px;
-  margin-left: auto;
-  margin-right: auto;
-  margin-bottom: 74px;
-}
-.widget .widget-socials {
-  display: flex;
-}
-.widget-socials {
-  margin-left: auto;
-  margin-right: auto;
-  margin-top: 32px;
-  padding-left: 0;
-}
-.widget .widget-socials .widget-social {
-  list-style-type: none;
-}
-.widget-logo {
-  width: 20px;
-  height: 20px;
-  margin-right: 30px;
-  color: #000000;
-  text-decoration: none;
-}
-.widget-link-text {
-  color: #000000;
-  position: absolute;
-  width: 1px;
-  height: 1px;
-  clip: rect(1px, 1px, 1px, 1px);
-}
-.copy-right {
-  background-color: #ffffff;
-  margin-left: auto;
-  margin-right: auto;
-  margin-bottom: 41px;
-  text-align: center;
-}
-.copy-right-style {
-  font-size: 12px;
-  font-family: OpenSans-Bold, Arial, Sans-Serif;
-  color: #999999;
-  text-decoration: none;
 }
 }
