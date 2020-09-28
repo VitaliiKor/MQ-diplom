@@ -112,11 +112,11 @@ a {
   height: 76px;
   text-transform: uppercase;
   font-family: OpenSans-Bold, Arial, Sans-Serif;
-  color: #000000;
   text-decoration: none;
 }
 h2{
-  font-size: 16px;	
+  font-size: 20px;
+  color: #000000;
 }
 .column-header {
   font-family: OpenSans-Bold, Arial, Sans-Serif;
@@ -128,8 +128,7 @@ h2{
 .widget {
   background-color: #f4f7f6;
   height: 83px;
-  min-width: 330px;
-  max-width: 1170px;
+  width: 95%;
   margin-top: 64px;
   margin-left: auto;
   margin-right: auto;
