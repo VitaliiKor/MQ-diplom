@@ -95,6 +95,12 @@
   text-transform: uppercase;
   z-index: 1;
 }
+.trands{
+  height: 100px;
+}
+.trand{
+
+}
 .element {
   width: 64px;
   height: 2px;
@@ -115,7 +121,7 @@ a {
   text-decoration: none;
 }
 h2{
-  font-size: 20px;
+  font-size: 12px;
   color: #000000;
 }
 .column-header {
@@ -254,6 +260,9 @@ h2{
  .title {
   font-size: 45px;
  }
+ .trands{
+  height: 124px;
+}
 .news {
   display: flex;
   justify-content: space-around;
