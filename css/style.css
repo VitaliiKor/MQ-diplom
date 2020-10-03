@@ -230,11 +230,23 @@ h3{
   font-size: 14px;
   color: #ffffff;
 }
-.our-product {
+.our-product-style{
 	display:block;
 	margin: auto;
 	width: 330px;
-	height: 253px;
+	height: 223px;
+}
+.our-product {
+	margin: auto;
+	width: 330px;
+	height: 283px;
+}
+.product-description{
+	width: 324px;
+	height: 214px;
+	border: 2px solid #b59f5b;
+	margin: auto;
+	z-index: 2;
 }
 .buying{
 	display: flex;
