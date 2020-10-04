@@ -237,16 +237,38 @@ h3{
 	height: 223px;
 }
 .our-product {
-	margin: auto;
-	width: 330px;
-	height: 283px;
+	display: block;
+	position: relative;
+	top: -25px;
+	margin: 43px auto 0 auto;
+	width: 282px;
+	height: 282px;
+	justify-content: center;
+	background-size: cover;
 }
-.product-description{
+.description{
+	position: relative;
 	width: 324px;
 	height: 214px;
-	border: 2px solid #b59f5b;
+	border: 3px solid #b59f5b;
 	margin: auto;
-	z-index: 2;
+	z-index: 1;
+}
+.product-header {
+  padding-top: 54px;
+  padding-left: 20px;
+  text-transform: uppercase;
+  font-family: OpenSans-Bold, Arial, Sans-Serif;
+  font-size: 17px;
+  text-decoration: none;
+  margin: 0 auto;
+}
+.product-description {
+  width: 330px;
+  font-family: OpenSans-Regular, Arial, Sans-Serif;
+  font-size: 15px;
+  margin: 0 auto;
+  padding-left: 20px;
 }
 .buying{
 	display: flex;
