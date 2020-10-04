@@ -230,6 +230,15 @@ h3{
   font-size: 14px;
   color: #ffffff;
 }
+.our-products{
+	display: flex;
+	flex-wrap: wrap;
+	margin-left: auto;
+	margin-right: auto;
+}
+.product-article{
+	width: 80%;
+}
 .our-product-style{
 	display:block;
 	margin: auto;
@@ -369,6 +378,10 @@ h3{
   margin-left: auto;
   margin-right: auto;
   margin-bottom: 30px;	
+}
+.product-article{
+	width: 40%;
+	margin-left: 10%;
 }
 }
 
@@ -572,5 +585,8 @@ h3{
 .theme-right-number {
   color: #b59f5b;
   margin-top: 5px;
+}
+.product-article{
+	width: 30%;
 }
 }
