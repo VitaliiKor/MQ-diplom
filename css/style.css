@@ -27,10 +27,11 @@
   background-image: url("../images/banner-mobile.jpg");
   background-repeat: no-repeat;
   background-position: center center;
-  background-size: auto;
+  background-size: cover;
   background-color: #000000;
   position: relative;
-  min-height: 455px;
+  min-width: 360px;
+  min-height: 640px;
   padding-top: 40px;
 }
 .welcome::after {
@@ -438,6 +439,13 @@ h3{
 @media (min-width: 1200px){
 .welcome {
   background-image: url("../images/banner-bg.jpg");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: auto;
+  background-color: #000000;
+  position: relative;
+  min-height: 455px;
+  padding-top: 40px;
 }
 .welcome::after {
   content: "";
