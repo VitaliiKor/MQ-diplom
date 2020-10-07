@@ -32,7 +32,6 @@
   position: relative;
   min-width: 360px;
   min-height: 640px;
-  padding-top: 40px;
 }
 .welcome::after {
   content: "";
@@ -95,6 +94,21 @@
   color: #ffffff;
   text-transform: uppercase;
   z-index: 1;
+}
+.trands{
+	margin-left: auto;
+	margin-right: auto;
+}
+.trand{
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+.trand-picture{
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 3px;
 }
 .element {
   width: 64px;
@@ -188,6 +202,7 @@ h3{
 .field {
   width: 225px;
   height: 45px;
+  margin-left: auto;
   background-color: #f4f7f6;
   outline: none;
   border: none;
@@ -201,6 +216,7 @@ h3{
   border: none;
   width: 45px;
   height: 45px;
+  margin-right: auto;
   background-image: url("https://netology-code.github.io/html-2-diploma/sources/images/search.svg");
   background-color: #b59f5b;
   background-size: 20px;
@@ -233,6 +249,8 @@ h3{
 }
 .right-column {
   margin-top: 65px;
+  margin-left: auto;
+  margin-right: auto;
 }
 .theme-right {
   padding-left: 0;
@@ -579,7 +597,6 @@ h3{
 .element2{
 	display: none;
 }
-/* theme-right-number;  */
 .right-column {
   margin-top: 65px;
 }
