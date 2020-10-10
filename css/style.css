@@ -306,7 +306,6 @@ h3{
 	flex-wrap: wrap;
 	margin-left: auto;
 	margin-right: auto;
-    max-width: 100%;
 }
 .product-article{
 	width: 80%;
@@ -317,7 +316,6 @@ h3{
 	display:block;
 	margin: auto;
     max-width: 330px;
-	width: 100%;
 	height: 223px;
 }
 .our-product {
@@ -325,8 +323,7 @@ h3{
 	position: relative;
 	top: -26px;
 	margin: 43px auto 0 auto;
-	max-width: 282px;
-	width: 100%;
+	width: 282px;
 	height: 282px;
 	justify-content: center;
 	background-size: cover;
@@ -334,8 +331,7 @@ h3{
 }
 .description{
 	position: relative;
-	width: 100%;
-    max-width: 322px;
+	width: 322px;
 	border: 4px solid #b59f5b;
 	margin: auto;
 	z-index: 1;
@@ -462,7 +458,6 @@ h3{
 	margin-left: 10%;
 }
 }
-
 @media (min-width: 1200px){
 .welcome {
   background-image: url("../images/banner-bg.jpg");
