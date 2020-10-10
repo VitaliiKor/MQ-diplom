@@ -306,16 +306,18 @@ h3{
 	flex-wrap: wrap;
 	margin-left: auto;
 	margin-right: auto;
+	justify-content: space-around;
 }
 .product-article{
 	width: 80%;
+	min-width: 330px;
 	margin-left: auto;
 	margin-right: auto;
 }
 .our-product-style{
 	display:block;
 	margin: auto;
-    max-width: 330px;
+    width: 330px;
 	height: 223px;
 }
 .our-product {
