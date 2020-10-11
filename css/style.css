@@ -458,9 +458,9 @@ h3{
   margin-bottom: 30px;	
 }
 .product-article{
-	width: 40%;
+	width: 50%;
 }
-  .product-article:nth-child(3){
+  .proba:nth-child(3){
   margin-right: auto;  
 }
 }
