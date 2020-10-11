@@ -257,6 +257,7 @@ h3{
   margin-right: auto;
 }
 .theme-right {
+  margin-left: 15px;
   padding-left: 0;
   width: 270px;
   font-size: 14px;
@@ -283,7 +284,8 @@ h3{
   display: flex;
   flex-wrap: wrap;
   justify-content: flex-start;
-  width: 270px;
+  width: 345px;
+  margin-left: 15px;
   text-transform: uppercase;
   font-family: OpenSans-Bold, Arial, Sans-Serif;
   font-size: 12px;
@@ -457,7 +459,9 @@ h3{
 }
 .product-article{
 	width: 40%;
-	margin-left: 10%;
+}
+  .product-article:nth-child(3){
+  margin-right: auto;  
 }
 }
 @media (min-width: 1200px){
