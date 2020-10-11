@@ -460,7 +460,7 @@ h3{
 .product-article{
 	width: 50%;
 }
-  .proba:nth-child(3){
+  .product-column:nth-child(3){
   margin-right: auto;  
 }
 }
