@@ -461,6 +461,7 @@ h3{
 	width: 50%;
 }
   .product-column:nth-child(3){
+  margin-left: 10px;
   margin-right: auto;  
 }
 }
@@ -546,6 +547,15 @@ h3{
  .title {
   font-size: 45px;
  }
+.trands-column{
+	display: flex;
+	justify-content: space-around;
+}
+.trand{
+	display: block;
+	margin-left: 2px;
+	margin-right: 2px;
+}
 .news {
   display: flex;
   justify-content: space-around;
