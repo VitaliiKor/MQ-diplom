@@ -136,7 +136,7 @@ h2{
   text-align: center;
   text-decoration: none;
   color: #000000;
-  font-size: 14px;
+  font-size: 12px;
 }
 h3{
   font-size: 10px;
@@ -276,6 +276,11 @@ h3{
   text-decoration: none;
   color: #000000;
   font-size: 12px;
+}
+.article-date-right-column {
+  font-family: OpenSans-Regular, Arial, Sans-Serif;
+  font-size: 10px;
+  color: #888888;
 }
 .theme-right {
   margin-left: 15px;
@@ -568,6 +573,9 @@ h3{
  .title {
   font-size: 45px;
  }
+.column-header{
+	font-size: 14px;	
+}
 .trands-column{
 	display: flex;
 	justify-content: space-around;
@@ -662,7 +670,7 @@ h3{
 	margin: 0;
 }
 .right-column-post-header{
-	
+	font-size: 16px;
 }
 .right-column-img {
   float: left;
@@ -671,9 +679,7 @@ h3{
   height: 70px;
 }
 .article-date-right-column {
-  font-family: OpenSans-Regular, Arial, Sans-Serif;
   font-size: 12px;
-  color: #888888;
 }
 .tags {
   width: 270px;
