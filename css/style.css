@@ -150,7 +150,8 @@ h3{
 }
 .theme{
 	width: 326px;
-	margin-left: 15px;
+	margin-left: auto;
+	margin-right: auto;
 }
 .theme-type {
   display: flex;
@@ -608,6 +609,9 @@ h3{
 }
 .additionally {
   width: 270px;
+}
+.theme{
+	margin-left: 15px;
 }
 .post {
   display: flex;
