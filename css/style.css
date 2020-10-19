@@ -130,6 +130,12 @@ h2{
   font-size: 12px;
   color: #000000;
 }
+.additionally {
+  width: 330px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
 .column-header {
   font-family: OpenSans-Bold, Arial, Sans-Serif;
   text-transform: uppercase;
@@ -339,6 +345,10 @@ h3{
 	margin-left: auto;
 	margin-right: auto;
 	justify-content: space-around;
+}
+.product-column{
+	margin-left: auto;
+	margin-right: auto;
 }
 .product-article{
 	width: 80%;
@@ -598,7 +608,6 @@ h3{
 }
 .additionally {
   width: 270px;
-  display: block;
 }
 .post {
   display: flex;
