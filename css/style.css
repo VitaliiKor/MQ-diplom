@@ -1,6 +1,9 @@
 * {
   margin: 0;
 }
+body{
+	min-width: 320px;
+}
 @font-face {
   font-family: "OpenSans-Regular";
   src: url("../fonts/OpenSans-Regular.woff");
@@ -18,7 +21,6 @@
   background-position: center center;
   margin-left: auto;
   margin-right: auto;
-  margin-top: 100px;
   position: relative;
   z-index: 2;
 }
@@ -49,6 +51,7 @@
 .container {
   display: flex;
   justify-content: space-around;
+  padding-top: 100px;
 }
 .menu{
 	display: none;
@@ -106,13 +109,13 @@
 	display: block;
 	margin-left: auto;
 	margin-right: auto;
+	margin-bottom: 3px;
 	min-width: 360px;
 }
 .trand-picture{
 	display: block;
 	margin-left: auto;
 	margin-right: auto;
-	margin-bottom: 3px;
 	background-size: contain;
 	min-width: 360px;
 	max-width: 100%;
@@ -164,6 +167,7 @@ h3{
 	width: 326px;
 	margin-left: auto;
 	margin-right: auto;
+	padding-top: 14px;
 }
 .theme-type {
   display: flex;
@@ -173,12 +177,15 @@ h3{
   text-transform: uppercase;
   font-family: OpenSans-Bold, Arial, Sans-Serif;
   font-size: 14px;
-  margin-top: 14px;
   margin-bottom: 14px;
   text-align: center;
 }
 .theme-type-element {
   margin-right: 30px;
+  color: #b59f5b;
+}
+.theme-type:last-child{
+	margin-right: 0;
 }
 .article-date {
   display: inline-block;
