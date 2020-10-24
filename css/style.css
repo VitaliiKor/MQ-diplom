@@ -117,7 +117,7 @@ body{
 	margin-right: auto;
 	margin-bottom: 3px;
 	min-width: 360px;
-	min-height: 280px;
+	min-height: 232px;
 }
 .trand::after {
   content: "";
@@ -139,29 +139,42 @@ body{
 	background-size: contain;
 	min-width: 360px;
 	width: 100%;
+	height: 232px;
+	/* height: 100%; */
 }
 .description-trands{
   position: absolute;
-  top: 88px;
   bottom: 15px;
   left: 14px;
   right: 14px;
-  padding-top: 33px;
+  padding-top: 26px;
   padding-left: 22px;
   padding-right: 22px;
+  padding-bottom: 26px;
   border: 3px solid #918053;
   z-index: 1;	
 }
 .description-trands-tags{
   display: flex;
-  margin-right: 30px;
   color: #b59f5b;
 }
+/* .theme-type-trands { */
+  /* display: flex; */
+  /* list-style-type: none; */
+  /* padding-left: 0; */
+  /* text-transform: uppercase; */
+  /* font-family: OpenSans-Bold, Arial, Sans-Serif; */
+  /* font-size: 14px; */
+  /* margin-bottom: 16px; */
+  /* text-align: center; */
+/* } */
 .description-trands-text{
   font-size: 16px;
   font-family: OpenSans-Bold, Arial, Sans-Serif;
   color: #ffffff;
   text-transform: uppercase;
+  padding-top: 0;
+  margin-top: 0;
 }
 .element {
   width: 64px;
@@ -216,7 +229,6 @@ h3{
   display: flex;
   list-style-type: none;
   padding-left: 0;
-  color: #b59f5b;
   text-transform: uppercase;
   font-family: OpenSans-Bold, Arial, Sans-Serif;
   font-size: 14px;
