@@ -1,9 +1,6 @@
 * {
   margin: 0;
 }
-body{
-	min-width: 320px;
-}
 @font-face {
   font-family: "OpenSans-Regular";
   src: url("../fonts/OpenSans-Regular.woff");
@@ -21,10 +18,10 @@ body{
   background-position: center center;
   margin-left: auto;
   margin-right: auto;
+  margin-top: 100px;
   position: relative;
   z-index: 2;
 }
-
 .welcome {
   background-image: url("../images/banner-mobile.jpg");
   background-repeat: no-repeat;
@@ -51,7 +48,6 @@ body{
 .container {
   display: flex;
   justify-content: space-around;
-  padding-top: 100px;
 }
 .menu{
 	display: none;
@@ -104,64 +100,21 @@ body{
 .trands{
 	margin-left: auto;
 	margin-right: auto;
-	min-height: 1000px;
 }
 .trand{
 	display: block;
-	background-repeat: no-repeat;
-	background-position: center center;
-	background-size: cover;
-	background-color: #000000;
-	position: relative;
 	margin-left: auto;
 	margin-right: auto;
-	margin-bottom: 3px;
 	min-width: 360px;
-	min-height: 280px;
-}
-.trand::after {
-  content: "";
-  background-color: #000000;
-  position: absolute;
-  top: 0;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  width: 100%;
-  height: 100%;
-  opacity: 0.45;
 }
 .trand-picture{
 	display: block;
-	position: absolute;
 	margin-left: auto;
 	margin-right: auto;
+	margin-bottom: 3px;
 	background-size: contain;
 	min-width: 360px;
-	width: 100%;
-}
-.description-trands{
-  position: absolute;
-  top: 88px;
-  bottom: 15px;
-  left: 14px;
-  right: 14px;
-  padding-top: 33px;
-  padding-left: 22px;
-  padding-right: 22px;
-  border: 3px solid #918053;
-  z-index: 1;	
-}
-.description-trands-tags{
-  display: flex;
-  margin-right: 30px;
-  color: #b59f5b;
-}
-.description-trands-text{
-  font-size: 16px;
-  font-family: OpenSans-Bold, Arial, Sans-Serif;
-  color: #ffffff;
-  text-transform: uppercase;
+	max-width: 100%;
 }
 .element {
   width: 64px;
@@ -210,7 +163,6 @@ h3{
 	width: 326px;
 	margin-left: auto;
 	margin-right: auto;
-	padding-top: 14px;
 }
 .theme-type {
   display: flex;
@@ -220,19 +172,12 @@ h3{
   text-transform: uppercase;
   font-family: OpenSans-Bold, Arial, Sans-Serif;
   font-size: 14px;
+  margin-top: 14px;
   margin-bottom: 14px;
   text-align: center;
 }
 .theme-type-element {
   margin-right: 30px;
-  color: #b59f5b;
-}
-.theme-type-element > a {
-  color: #b59f5b;
-  text-decoration: none;
-}
-.theme-type-element:last-child {
-  margin-right: 0;
 }
 .article-date {
   display: inline-block;
@@ -258,7 +203,6 @@ h3{
 .post {
   margin-left: auto;
   margin-right: auto;
-  width: 360px;
 }
 .post-header {
   width: 330px;
@@ -272,8 +216,7 @@ h3{
   width: 326px;
   font-family: OpenSans-Regular, Arial, Sans-Serif;
   font-size: 15px;
-  margin: 0 auto 15px auto;
-  
+  margin: 0 auto;
 }
 .element2{
   width: 330px;
@@ -282,33 +225,19 @@ h3{
   margin-top: 14px;
   margin-left: auto;
   margin-right: auto;
-  margin-bottom: 14px;
 }
 .search-group {
   display: flex;
 }
 .field {
-  width: 240px;
+  width: 260px;
   height: 45px;
   margin-left: auto;
   background-color: #f4f7f6;
   outline: none;
   border: none;
+  padding: 0;
   padding-left: 20px;
-  padding-right: 20px;
-  font-family: OpenSans-Regular, Arial, Sans-Serif;
-  font-size: 13px;
-  color: #828383;
-}
-.field2 {
-  width: 285px;
-  height: 45px;
-  margin-left: auto;
-  background-color: #f4f7f6;
-  outline: none;
-  border: none;
-  padding-left: 20px;
-  padding-right: 20px;
   font-family: OpenSans-Regular, Arial, Sans-Serif;
   font-size: 13px;
   color: #828383;
@@ -326,9 +255,11 @@ h3{
 }
 .mailing {
   width: 325px;
+  height: 47px;
   margin-left: auto;
   margin-right: auto;
   margin-bottom: 106px;
+  background-color: #f4f7f6;
   outline: none;
   border: none;
   padding: 0;
@@ -372,12 +303,12 @@ h3{
   font-size: 12px;
 }
 .article-date-right-column {
-  display: block;
   font-family: OpenSans-Regular, Arial, Sans-Serif;
   font-size: 10px;
   color: #888888;
 }
 .theme-right {
+  margin-left: 15px;
   padding-left: 0;
   width: 326px;
   font-size: 14px;
@@ -405,6 +336,7 @@ h3{
   flex-wrap: wrap;
   justify-content: flex-start;
   width: 325px;
+  margin-left: 15px;
   text-transform: uppercase;
   font-family: OpenSans-Bold, Arial, Sans-Serif;
   font-size: 12px;
@@ -418,10 +350,9 @@ h3{
   margin-bottom: 6px;
 }
 .tags-link {
-  display: block;
   color: #000000;
   text-decoration: none;
-  padding: 0px 12px;
+  padding: 8px 12px;
 }
 .our-products{
 	display: flex;
@@ -459,15 +390,14 @@ h3{
 }
 .description{
 	position: relative;
+	width: 322px;
 	border: 4px solid #b59f5b;
 	margin: auto;
-	padding-top: 54px;
-    padding-left: 20px;
-	padding-bottom: 25px;
-	padding-right: 0;
 	z-index: 1;
 }
 .product-header {
+  padding-top: 54px;
+  padding-left: 20px;
   text-transform: uppercase;
   font-family: OpenSans-Bold, Arial, Sans-Serif;
   font-size: 17px;
@@ -478,13 +408,16 @@ h3{
   width: 280px;
   font-family: OpenSans-Regular, Arial, Sans-Serif;
   font-size: 15px;
+  padding-left: 20px;
 }
 .buying{
 	display: flex;
 	width: 285px;
 	align-items: center;
 	justify-content: space-between;
-	padding-top: 25px;
+	margin: auto;
+	margin-top: 25px;
+	margin-bottom: 25px;
 }
 .product-tag{
 	color: #b59f5b;
@@ -513,8 +446,7 @@ h3{
 }
 .widget {
   background-color: #f4f7f6;
-  padding-top: 32px;
-  padding-bottom: 27px;
+  height: 83px;
   width: 95%;
   margin-top: 64px;
   margin-left: auto;
@@ -527,23 +459,18 @@ h3{
 .widget-socials {
   margin-left: auto;
   margin-right: auto;
+  margin-top: 32px;
   padding-left: 0;
 }
 .widget .widget-socials .widget-social {
   list-style-type: none;
 }
-.widget-social{
-  margin-right: 30px;	
-}
-.widget-social:last-child {
-  margin-right: 0;
-}
 .widget-logo {
   width: 20px;
   height: 20px;
-  background-color: #f4f7f6;
-  background-repeat: no-repeat;
-  background-position: center center;
+  margin-right: 30px;
+  color: #000000;
+  text-decoration: none;
 }
 .widget-link-text {
   color: #000000;
@@ -552,13 +479,11 @@ h3{
   height: 1px;
   clip: rect(1px, 1px, 1px, 1px);
 }
-footer{
-	padding-bottom: 41px;
-}
 .copy-right {
   background-color: #ffffff;
   margin-left: auto;
   margin-right: auto;
+  margin-bottom: 41px;
   text-align: center;
 }
 .copy-right-style {
@@ -746,16 +671,15 @@ footer{
 }
 .article-news {
   width: 366px;
-  margin: 0 auto;
+  font-family: OpenSans-Regular, Arial, Sans-Serif;
+  font-size: 15px;
 }
 .field {
-  width: 185px;
-}
-.field2 {
-  width: 230px;
+  width: 225px;
 }
 .mailing {
   width: 270px;
+  height: 45px;
   margin: 0 auto;
 }
 .subscribe {
@@ -790,6 +714,7 @@ footer{
 }
 .tags {
   width: 270px;
+  font-family: OpenSans-Bold, Arial, Sans-Serif;
 }
 .tags-item {
   background: #ffffff;
@@ -801,6 +726,8 @@ footer{
 .theme-right {
   width: 270px;
   font-size: 14px;
+  font-family: OpenSans-Bold, Arial, Sans-Serif;
+  list-style-type: none;
 }
 .theme-right-name {
   display: inline-block;
