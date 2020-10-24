@@ -158,16 +158,6 @@ body{
   display: flex;
   color: #b59f5b;
 }
-/* .theme-type-trands { */
-  /* display: flex; */
-  /* list-style-type: none; */
-  /* padding-left: 0; */
-  /* text-transform: uppercase; */
-  /* font-family: OpenSans-Bold, Arial, Sans-Serif; */
-  /* font-size: 14px; */
-  /* margin-bottom: 16px; */
-  /* text-align: center; */
-/* } */
 .description-trands-text{
   font-size: 16px;
   font-family: OpenSans-Bold, Arial, Sans-Serif;
@@ -180,6 +170,27 @@ body{
   width: 64px;
   height: 4px;
   background-color: #e1d9bd;
+  margin-top: 14px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 30px;
+}
+.column-header {
+  position: relative;
+  font-family: OpenSans-Bold, Arial, Sans-Serif;
+  text-transform: uppercase;
+  text-align: center;
+  text-decoration: none;
+  color: #000000;
+  font-size: 16px;
+}
+.column-header::after {
+  content: '';
+  border-top: 4px solid #e1d9bd;
+  width: 64px;
+  height: 4px;
+  position: absolute;
+  top: 15px;
   margin-top: 14px;
   margin-left: auto;
   margin-right: auto;
@@ -206,14 +217,6 @@ h2{
   display: block;
   margin-left: auto;
   margin-right: auto;
-}
-.column-header {
-  font-family: OpenSans-Bold, Arial, Sans-Serif;
-  text-transform: uppercase;
-  text-align: center;
-  text-decoration: none;
-  color: #000000;
-  font-size: 16px;
 }
 h3{
   font-size: 10px;
