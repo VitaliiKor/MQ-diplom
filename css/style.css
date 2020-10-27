@@ -14,6 +14,9 @@ body {
   src: url("../fonts/OpenSans-Bold.woff");
   font-weight: 700;
 }
+header{
+  padding-top: 100px;
+}
 .header-logo {
   color: #ffffff;
   background-repeat: no-repeat;
@@ -51,7 +54,6 @@ body {
 .container {
   display: flex;
   justify-content: space-around;
-  padding-top: 100px;
 }
 .menu {
   display: none;
@@ -104,7 +106,6 @@ body {
 .trands {
   margin-left: auto;
   margin-right: auto;
-  min-height: 1000px;
 }
 .trand {
   display: block;
@@ -158,7 +159,7 @@ body {
   display: flex;
   color: #b59f5b;
 }
-.description-trands-text {
+.description-trands-header {
   font-size: 16px;
   font-family: OpenSans-Bold, Arial, Sans-Serif;
   color: #ffffff;
@@ -185,12 +186,13 @@ body {
   font-size: 16px;
   margin: 30px;
 }
-.column-header::before {
+.column-header::after {
   content: "";
-  border-bottom: 4px solid #e1d9bd;
   width: 64px;
-  height: 24px;
-  position: absolute;
+  height: 4px;
+  display: block;
+  margin: 14px auto 0;
+  background-color: #e1d9bd;
 }
 a {
   color: #ffffff;
@@ -199,12 +201,12 @@ h2 {
   font-size: 12px;
   color: #000000;
 }
-.basic {
+.news {
   margin-left: auto;
   margin-right: auto;
-  margin-top: 46px;
+  padding-top: 46px;
 }
-.news {
+.basic {
   margin-left: auto;
   margin-right: auto;
 }
@@ -614,6 +616,9 @@ footer {
   }
 }
 @media (min-width: 1200px) {
+header{
+  padding-top: 0;
+}
   .welcome {
     background-image: url("../images/banner-bg.jpg");
     background-repeat: no-repeat;
@@ -640,20 +645,22 @@ footer {
   }
   .container {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
+	width: 1240px;
+	margin: auto;
+	padding: 0 15px;
+	align-items: center;
+	
   }
   .header-logo {
     color: #ffffff;
     background-repeat: no-repeat;
     position: relative;
     width: 180px;
-    height: 62px;
     z-index: 1;
   }
   .menu {
     display: flex;
-    margin-top: 20px;
-    width: 462px;
     font-size: 13px;
     font-family: OpenSans-Regular, Arial, Sans-Serif;
     color: #ffffff;
@@ -696,6 +703,9 @@ footer {
   .title {
     font-size: 45px;
   }
+.trands {
+  margin-bottom: 0;
+}
   .column-header {
     font-size: 14px;
   }
@@ -712,6 +722,7 @@ footer {
     display: flex;
     justify-content: space-around;
     margin: 0;
+	padding-top: 0;
   }
   .basic {
     width: 900px;
