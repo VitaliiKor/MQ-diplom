@@ -524,6 +524,9 @@ h3 {
   font-size: 14px;
   color: #ffffff;
 }
+.shop > a{
+  text-decoration: none;	
+}
 .price-old {
   text-decoration: line-through;
   font-family: OpenSans-Bold, Arial, Sans-Serif;
