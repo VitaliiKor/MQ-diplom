@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ru">
 
 <head>
   <title>MQ diplom</title>
@@ -12,7 +12,7 @@
 <body>
   <div class="welcome">
     <header>
-      <label alt="Меню выбора раздела">
+      <label>
         <div class="menu__toggle" for="menu__toggle"></div>
         <input type="checkbox" id="menu__toggle" class="menu__check">
       </label>
@@ -313,7 +313,7 @@
         </div>
       </div>
       <form class="search-group">
-        <label alt="Меню поиска">
+        <label>
           <input class="field" name="query" placeholder="Найти..." required>
         </label>
         <button class="button" alt="Кнопка поиска"></button>
@@ -321,7 +321,7 @@
       <div class="right-column">
         <h2 class="column-header">Рассылка</h2>
         <form class="mailing">
-          <label alt="Меню ввода вашего e-mail">
+          <label>
             <input class="field2" type="email" name="query" placeholder="Введите ваш e-mail адрес" required>
           </label>
           <button class="subscribe" type="submit">Подписаться </button>
@@ -450,11 +450,13 @@
                   3500 &#8381;
                 </div>
               </div>
-              <div>
-                  <button class="shop" type="submit">
-					<span><a href="#0">В магазин </a></span>
-				  </button>
-              </div>
+              <a href="#0">
+				  <div>
+					  <button class="shop" type="submit">
+						В магазин
+					  </button>
+				  </div>
+			  </a>
             </div>
           </div>
         </article>
