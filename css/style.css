@@ -3,6 +3,9 @@
 }
 body {
   min-width: 320px;
+  max-width: 1670px;
+  margin-left: auto;
+  margin-right: auto;
 }
 @font-face {
   font-family: "OpenSans-Regular";
@@ -451,7 +454,7 @@ h3 {
   flex-wrap: wrap;
   margin-left: auto;
   margin-right: auto;
-  justify-content: space-around;
+  justify-content: space-between;
 }
 .product-column {
   margin-left: auto;
@@ -538,6 +541,7 @@ h3 {
   padding-top: 30px;
   padding-bottom: 30px;
   width: 95%;
+  max-width: 1170px;
   margin-top: 64px;
   margin-left: auto;
   margin-right: auto;
@@ -640,17 +644,7 @@ header{
     min-height: 455px;
     padding-top: 40px;
     margin-bottom: 0;
-  }
-  .welcome::after {
-    content: "";
-    background-color: #000000;
-    position: absolute;
-    top: 0;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    opacity: 0.45;
-  }
+}
   .welcome-title {
     text-transform: uppercase;
   }
@@ -658,7 +652,7 @@ header{
     display: flex;
     justify-content: space-between;
 	width: 95%;
-	max-width: 1370px;
+	max-width: 1170px;
 	margin: auto;
 	padding: 0 15px;
 	align-items: center;
@@ -718,9 +712,6 @@ header{
 .trands {
   margin-bottom: 0;
 }
-  .column-header {
-    font-size: 14px;
-  }
   .trands-column {
     display: flex;
     justify-content: space-around;
@@ -735,13 +726,16 @@ header{
     justify-content: space-around;
     margin: 0;
 	padding-top: 0;
+	width: 1170px;
+	margin-left: auto;
+	margin-right: auto;
   }
   .basic {
-    width: 900px;
     margin: 0;
   }
   .additionally {
     width: 270px;
+	margin-right: 0;
   }
   .theme {
     margin-left: 15px;
@@ -804,7 +798,7 @@ header{
   }
   .mailing {
     width: 270px;
-    margin: 0 auto;
+    margin: 0;
   }
   .subscribe {
     width: 270px;
@@ -813,6 +807,7 @@ header{
   }
   .right-column {
     margin-top: 65px;
+	width: 270px;
   }
   .right-column-post {
     height: 70px;
@@ -822,7 +817,7 @@ header{
     margin: 0;
   }
   .right-column-post-header {
-    font-size: 16px;
+    font-size: 14px;
   }
   .right-column-img {
     float: left;
@@ -858,6 +853,21 @@ header{
     color: #b59f5b;
     margin-top: 5px;
   }
+  .column-header {
+    font-size: 14px;
+	width: 270px;
+	margin-left: 0;
+  }
+.column-header-trands-products{
+	margin-left: auto;
+	margin-right: auto;
+}
+.our-products{
+	width: 1170px;
+}
+.product-column{
+	margin: 0;
+}
   .product-article {
     width: 30%;
   }
