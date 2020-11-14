@@ -689,7 +689,7 @@ body {
 	margin-right: 33px;
 }
 }
-@media (min-width: 1200px), (orientation: landscape) and (min-width: 768px)(max-width: 1199px) {
+@media (min-width: 1200px), (orientation: landscape) and (min-width: 768px) and (max-width: 1199px) {
 header{
   padding-top: 0;
 }
