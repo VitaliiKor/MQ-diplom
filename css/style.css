@@ -457,11 +457,11 @@ h3 {
   justify-content: space-between;
 }
 .product-column {
+  width: 80%;
   margin-left: auto;
   margin-right: auto;
 }
 .product-article {
-  width: 80%;
   min-width: 330px;
   margin-left: auto;
   margin-right: auto;
@@ -484,6 +484,7 @@ h3 {
 }
 .description {
   position: relative;
+  width: 326px;
   border: 4px solid #b59f5b;
   margin: auto;
   padding-top: 54px;
@@ -616,6 +617,21 @@ body {
   .welcome {
     background-image: url("../images/banner-bg-tablet.jpg");
     margin-bottom: 0;
+  }
+  .trands {
+  margin-bottom: 0;
+  min-width: 768px;
+}
+  .trands-column {
+    display: flex;
+	flex-wrap: wrap;
+    justify-content: space-around;
+  }
+  .trand {
+    display: block;
+    margin-left: 0;
+    margin-right: 0;
+	min-width: 381px;
   }
   .figure-theme {
     float: left;
