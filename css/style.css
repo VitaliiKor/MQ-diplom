@@ -606,7 +606,7 @@ footer {
   color: #999999;
   text-decoration: none;
 }
-@media (min-width: 768px) and (max-width: 1199px) {
+@media (min-width: 768px) and (max-width: 1199px) and landscape {
 body {
   min-width: 768px;
   max-width: 1199px;
@@ -689,7 +689,7 @@ body {
 	margin-right: 33px;
 }
 }
-@media (min-width: 1200px) {
+@media (min-width: 1200px)  and landscape {
 header{
   padding-top: 0;
 }
