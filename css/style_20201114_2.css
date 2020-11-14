@@ -246,7 +246,6 @@ h3 {
   font-family: OpenSans-Bold, Arial, Sans-Serif;
   font-size: 14px;
   margin-bottom: 14px;
-  text-align: center;
 }
 .theme-type-element {
   margin-right: 30px;
@@ -456,12 +455,17 @@ h3 {
   margin-right: auto;
   justify-content: space-between;
 }
+.our-products-start{
+	margin-left: auto;
+	margin-right: auto;
+}
 .product-column {
+  width: 80%;
   margin-left: auto;
   margin-right: auto;
 }
 .product-article {
-  width: 80%;
+  display: block;
   min-width: 330px;
   margin-left: auto;
   margin-right: auto;
@@ -484,6 +488,7 @@ h3 {
 }
 .description {
   position: relative;
+  width: 322px;
   border: 4px solid #b59f5b;
   margin: auto;
   padding-top: 54px;
@@ -643,7 +648,7 @@ body {
   }
   .additionally {
     width: 270px;
-	margin-right: 33px;
+	margin-left: 22px;
   }
   .right-column {
     margin-top: 65px;
