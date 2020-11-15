@@ -651,6 +651,14 @@ footer {
 	background-color: white;
 	z-index: 9999;
 }
+.hidden-close-text{
+  color: #000000;
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  clip: rect(1px, 1px, 1px, 1px);
+  z-index: 1;
+}
 
  @media (min-width: 768px) and (max-width: 1199px), (orientation: landscape) and (max-width: 767px) {
 body {
