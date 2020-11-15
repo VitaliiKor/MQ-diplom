@@ -605,6 +605,53 @@ footer {
   color: #999999;
   text-decoration: none;
 }
+.hidden {
+    display: flex;
+	justify-content: center;
+	align-items: center;
+	position: absolute;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	z-index: 9999;	
+	/* visibility: hidden; */
+}
+.hidden::after {
+	content: "";
+	background-color: #000000;
+	opacity: 0.85;
+	position: absolute;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+}
+.hidden-box {
+	box-sizing: border-box;
+	width: 1100px;
+	padding: 40px;	
+	position: relative;
+	z-index: 2;
+	background-color: #ffffff;
+}
+.hidden-close {
+	width: 24px;
+	height: 24px;
+	padding: 0;
+	border: none;
+	cursor: pointer;	
+	position: absolute;
+	top: 115px;
+	right: 115px;
+	background-image: url("https://netology-code.github.io/resourses/pics/close.svg");
+	background-size: 20px;
+	background-repeat: no-repeat;
+	background-position: center center;
+	background-color: white;
+	z-index: 9999;
+}
+
  @media (min-width: 768px) and (max-width: 1199px), (orientation: landscape) and (max-width: 767px) {
 body {
   min-width: 768px;
