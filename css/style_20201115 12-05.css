@@ -513,10 +513,8 @@ h3 {
   text-decoration: none;
 }
 .shop {
-  min-width: 138px;
-  min-height: 48px;
-  max-width: 359px;
-  max-height: 125px;
+  width: 138px;
+  height: 48px;
   background-color: #b59f5b;
   outline: none;
   border: none;
