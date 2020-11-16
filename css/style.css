@@ -7,6 +7,9 @@ body {
   margin-left: auto;
   margin-right: auto;
 }
+*:focus {
+  outline: none;
+}
 @font-face {
   font-family: "OpenSans-Regular";
   src: url("../fonts/OpenSans-Regular.woff");
