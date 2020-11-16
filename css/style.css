@@ -637,7 +637,7 @@ footer {
 	padding: 0;
 	cursor: pointer;	
 	position: absolute;
-	background-image: url("https://netology-code.github.io/resourses/pics/close.svg");
+	background-image: url("../svg/cross.svg");
 	background-size: 30px;
 	background-repeat: no-repeat;
 	background-position: center center;
