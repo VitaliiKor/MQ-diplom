@@ -627,6 +627,22 @@ footer {
 	bottom: 0;
 	left: 0;
 }
+/* .hidden::before { */
+    /* content: ""; */
+    /* display: block; */
+    /* margin-bottom: 655px; */
+	/* margin-left: 265px; */
+	/* width: 30px; */
+	/* height: 30px; */
+	/* padding: 0; */
+	/* cursor: pointer;	 */
+	/* position: absolute; */
+	/* background-image: url("../svg/cross.svg"); */
+	/* background-size: 30px; */
+	/* background-repeat: no-repeat; */
+	/* background-position: center center; */
+	/* z-index: 9999; */
+/* } */
 .hidden-box {
 	box-sizing: border-box;
 	width: 310px;
