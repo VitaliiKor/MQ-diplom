@@ -651,18 +651,35 @@ footer {
 	z-index: 2;
 	background-color: #ffffff;
 }
-.hidden-close{
-	visibility: hidden;
+.send {
+  width: 230px;
+  height: 47px;
+  margin-top: 18px;
+  background-color: #b59f5b;
+  outline: none;
+  border: none;
+  padding: 0;
+  text-transform: uppercase;
+  font-family: OpenSans-Bold, Arial, Sans-Serif;
+  font-size: 14px;
+  color: #ffffff;
 }
-.hidden-close-text{
-  color: #000000;
-  position: absolute;
-  width: 1px;
-  height: 1px;
-  clip: rect(1px, 1px, 1px, 1px);
-  z-index: 1;
+.field3 {
+  width: 190px;
+  height: 245px;
+  margin-left: auto;
+  background-color: #f4f7f6;
+  outline: none;
+  border: none;
+  padding-top: 20px;
+  padding-left: 20px;
+  padding-right: 20px;
+  line-height: 20px;
+  vertical-align: 20px;
+  font-family: OpenSans-Regular, Arial, Sans-Serif;
+  font-size: 13px;
+  color: #828383;
 }
-
  @media (min-width: 768px) and (max-width: 1199px), (orientation: landscape) and (max-width: 767px) {
 body {
   min-width: 768px;
