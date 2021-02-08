@@ -461,6 +461,7 @@ h3 {
 }
 .product-column {
   min-width: 330px;
+  margin-top: 10px;
   margin-left: auto;
   margin-right: auto;
 }
@@ -482,6 +483,7 @@ h3 {
   background-size: cover;
 }
 .description {
+  box-sizing: border-box;
   position: relative;
   border: 4px solid #b59f5b;
   margin: auto;
