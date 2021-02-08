@@ -469,7 +469,7 @@ h3 {
 .product-article {
   display: flex;
   flex-direction: column;
-  height: 100%;
+  /* height: 100%; */
   margin-left: auto;
   margin-right: auto;
 }
