@@ -250,6 +250,7 @@ h3 {
   text-transform: uppercase;
   font-family: OpenSans-Bold, Arial, Sans-Serif;
   font-size: 14px;
+  margin-top: 14px;
   margin-bottom: 14px;
   text-align: center;
 }
@@ -719,7 +720,7 @@ body {
 	min-width: 381px;
   }
   .figure-theme {
-    float: left;
+    /* float: left; */
     width: 390px;
     height: 302px;
 }
@@ -908,6 +909,7 @@ header{
   }
   .theme-type {
   color: #b59f5b;
+  margin-top: 0;
 }
   .theme-type-element {
     margin-right: 30px;
