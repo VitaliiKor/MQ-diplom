@@ -636,8 +636,8 @@ footer {
 }
 .hidden-box {
 	box-sizing: border-box;
-	width: 350px;
-	padding: 40px;	
+	width: 95%;
+	padding: 30px;	
 	position: relative;
 	z-index: 2;
 	background-color: #ffffff;
@@ -657,7 +657,6 @@ footer {
 	background-position: center center;
 	background-color: transparent;
 }
-
 .hidden-close-text {
 	position: absolute;
 	width: 1px;
@@ -742,9 +741,9 @@ footer {
   font-size: 13px;
 }
 .send {
-  width: 230px;
+  width: 100%;
   height: 47px;
-  margin-top: 18px;
+  /* margin-top: 18px; */
   background-color: #b59f5b;
   outline: none;
   border: none;
@@ -836,6 +835,10 @@ body {
 .description {
   width: inherit;
   max-width: 338px;
+}
+.hidden-box {
+	width: 50%;
+	max-height: 70%;
 }
 }
 @media (min-width: 1200px)/*, (orientation: landscape) and (min-width: 768px) and (max-width: 1199px) */{
@@ -1045,5 +1048,9 @@ header{
 }
 .description {
   width: inherit;
+}
+.hidden-box {
+	width: 25%;
+	height: 50%;
 }
 }
