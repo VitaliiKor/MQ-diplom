@@ -838,6 +838,7 @@ body {
 }
 .hidden-box {
 	width: 50%;
+	height: 50%;
 }
 }
 @media (min-width: 1200px)/*, (orientation: landscape) and (min-width: 768px) and (max-width: 1199px) */{
@@ -1050,5 +1051,6 @@ header{
 }
 .hidden-box {
 	width: 25%;
+	height: 50%;
 }
 }
