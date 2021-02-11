@@ -691,8 +691,6 @@ footer {
   background-position: right 15px center;
   background-size: 10px;
 }
-
-
 .radio-group {
   display: inline-block;
   font-size: 15px;
@@ -726,12 +724,10 @@ footer {
 .radio:checked ~ .radio-group-text::before {
 	background-image: url("../svg/form-circle.svg");
 }
-
-
 .field3 {
   resize: none;
   width: 190px;
-  height: 145px;
+  height: 90px;
   margin-left: auto;
   background-color: #f4f7f6;
   outline: none;
