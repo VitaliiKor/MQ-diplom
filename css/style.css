@@ -725,7 +725,7 @@ footer {
 }
 .field3 {
   box-sizing: border-box;
-  /* resize: none; */
+  resize: none;
   width: 100%;
   height: 100px;
   margin-left: auto;
