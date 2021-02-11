@@ -547,15 +547,39 @@
 			<span class="hidden-close-text">Закрыть окно</span>
 		</button>
 		<h2 class="column-header">Ваш фидбек</h2>
-        <form class="mailing">
-		  <span class="">Расскажите, какой контент вы хотели бы видеть на нашем сайте?</span>
-          <label>
-            <textarea class="field3" type="text" name="query" placeholder="Может, больше рецептов?" required></textarea>
-          </label>
-          <button class="send" type="submit">Отправить
-			<span class="hidden-close-text">Кнопка отправить</span>
-		  </button>
-        </form>
+			<form>
+				<label>
+					<span class="popup">Как часто вы заходите на сайт?</span>
+					<select class="select">
+					<option>Почти каждый день</option>
+					</select>
+				</label>
+			</form>
+			
+			
+			<form>
+				<span class="popup">Вы подписаны на e-mail рассылку?</span>
+			<label class="radio-group">
+				<input type="radio" class="radio" name="radio-group">
+				<span class="radio-group-text">Да</span>
+			</label>
+			<label class="radio-group">
+				<input type="radio" class="radio" name="radio-group">
+				<span class="radio-group-text">Нет</span>
+			</label>
+
+			</form>
+			
+			
+			<form>
+				<span class="popup">Расскажите, какой контент вы хотели бы видеть на нашем сайте?</span>
+				<label>
+					<textarea class="field3" type="text" name="query" placeholder="Может, больше рецептов?" required></textarea>
+				</label>
+				<button class="send" type="submit">Отправить
+					<span class="hidden-close-text">Кнопка отправить</span>
+				</button>
+			</form>
 	</div>
   </div>
 </body>

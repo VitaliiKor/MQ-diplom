@@ -362,7 +362,6 @@ h3 {
   background-position: center center;
 }
 .mailing {
-  width: 325px;
   margin-left: auto;
   margin-right: auto;
   margin-bottom: 106px;
@@ -473,6 +472,7 @@ h3 {
   flex-direction: column;
   margin-left: auto;
   margin-right: auto;
+  height: 100%;
 }
 .our-product-style {
   display: block;
@@ -495,6 +495,7 @@ h3 {
   padding-left: 30px;
   padding-right: 30px;
   z-index: 1;
+  flex-grow: 1;
   width: 343px;
 }
 .product-header {
@@ -621,7 +622,7 @@ footer {
 	bottom: 0;
 	left: 0;
 	z-index: 9999;	
-	visibility: hidden;
+	/* visibility: hidden; */
 }
 .hidden::after {
 	content: "";
@@ -641,37 +642,6 @@ footer {
 	z-index: 2;
 	background-color: #ffffff;
 }
-.send {
-  width: 230px;
-  height: 47px;
-  margin-top: 18px;
-  background-color: #b59f5b;
-  outline: none;
-  border: none;
-  padding: 0;
-  text-transform: uppercase;
-  font-family: OpenSans-Bold, Arial, Sans-Serif;
-  font-size: 14px;
-  color: #ffffff;
-}
-.field3 {
-  resize: none;
-  width: 190px;
-  height: 245px;
-  margin-left: auto;
-  background-color: #f4f7f6;
-  outline: none;
-  border: none;
-  padding-top: 20px;
-  padding-left: 20px;
-  padding-right: 20px;
-  line-height: 20px;
-  vertical-align: 20px;
-  font-family: OpenSans-Regular, Arial, Sans-Serif;
-  font-size: 13px;
-  color: #828383;
-}
-
 .hidden-close {
 	width: 30px;
 	height: 30px;
@@ -694,6 +664,101 @@ footer {
 	height: 1px;
 	clip: rect(1px 1px 1px 1px);
 }
+.popup {
+  display: block;
+  margin-bottom: 5px;
+  font-family: OpenSans-Bold, Arial, Sans-Serif;
+  font-size: 13px;
+  color: #000;
+}
+.select {
+  display: inline-block;
+  box-sizing: border-box;
+  width: 100%;
+  height: 40px;
+  padding-left: 10px;
+  padding-right: 25px;
+  margin: 0;
+  border: none;
+  background-color: #f9f9f9;
+  font-family: OpenSans-Regular, Arial, Sans-Serif;
+  font-size: 13px;
+  color: #828383;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  background-image: url("../svg/form-arrows.svg");
+  background-repeat: no-repeat;
+  background-position: right 15px center;
+  background-size: 10px;
+}
+
+
+.radio-group {
+  display: inline-block;
+  font-size: 15px;
+}
+.radio {
+	position: absolute;
+	clip: rect(1px, 1px, 1px, 1px);
+	height: 1px; 
+	width: 1px; 
+}
+.radio-group-text{
+  font-family: OpenSans-Bold, Arial, Sans-Serif;
+  font-size: 13px;
+  color: #000;	
+}
+.radio-group-text::before {
+	content: "";
+	display: inline-block;
+	vertical-align: middle;
+	margin-right: 8px;
+	width: 20px;
+	height: 20px;
+	background-image: url("../svg/form-empty-circle.svg");
+	background-repeat: no-repeat;
+	background-position: center  center;
+	background-size: 20px;
+}
+.radio-group:nth-of-type(n+2) {
+  margin-left: 15px;
+}
+.radio:checked ~ .radio-group-text::before {
+	background-image: url("../svg/form-circle.svg");
+}
+
+
+.field3 {
+  resize: none;
+  width: 190px;
+  height: 145px;
+  margin-left: auto;
+  background-color: #f4f7f6;
+  outline: none;
+  border: none;
+  padding-top: 20px;
+  padding-left: 20px;
+  padding-right: 20px;
+  line-height: 20px;
+  vertical-align: 20px;
+  font-family: OpenSans-Regular, Arial, Sans-Serif;
+  font-size: 13px;
+  color: #828383;
+}
+.send {
+  width: 230px;
+  height: 47px;
+  margin-top: 18px;
+  background-color: #b59f5b;
+  outline: none;
+  border: none;
+  padding: 0;
+  text-transform: uppercase;
+  font-family: OpenSans-Bold, Arial, Sans-Serif;
+  font-size: 14px;
+  color: #ffffff;
+}
+
 
  @media (min-width: 768px) and (max-width: 1199px), (orientation: landscape) and (max-width: 767px) {
 body {
@@ -910,15 +975,6 @@ header{
   .theme-type-element {
     margin-right: 30px;
   }
-  .article-date {
-  height: 64px;
-}
-  .author {
-  height: 64px;
-}
-  .article-news {
-  width: 366px;
-}
   .field {
     width: 185px;
   }
