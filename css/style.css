@@ -403,7 +403,6 @@ h3 {
 .right-column-post-header {
   font-family: OpenSans-Bold, Arial, Sans-Serif;
   text-transform: uppercase;
-  text-align: center;
   text-decoration: none;
   color: #000000;
   font-size: 12px;
@@ -756,6 +755,7 @@ footer {
   padding-top: 20px;
   padding-left: 20px;
   padding-right: 20px;
+  padding-bottom: 0px;
   line-height: 20px;
   vertical-align: 20px;
   font-family: OpenSans-Regular, Arial, Sans-Serif;
@@ -880,10 +880,9 @@ justify-content: space-between;
 }
 .hidden-box {
 	width: 50%;
-	max-height: 70%;
 }
 }
-@media (min-width: 1200px)/*, (orientation: landscape) and (min-width: 768px) and (max-width: 1199px) */{
+@media (min-width: 1200px){
 header{
   padding-top: 0;
 }
@@ -1089,6 +1088,5 @@ header{
 }
 .hidden-box {
 	width: 25%;
-	max-height: 70%;
 }
 }
